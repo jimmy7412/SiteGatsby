@@ -5,7 +5,9 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { Component } from "react";
+import {Container} from 'reactstrap';
+import {NavMenu} from "./NavMenu";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -25,6 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <NavMenu />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
