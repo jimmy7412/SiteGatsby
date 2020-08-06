@@ -8,8 +8,11 @@
 import React, { Component } from "react";
 import {Container} from 'reactstrap';
 import {NavMenu} from "./NavMenu";
+import {Footer} from "./Footer"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import Header from "./header"
 import "./layout.css"
@@ -27,22 +30,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <NavMenu />
+      <Container>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+            integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossOrigin="anonymous" />
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+        <Footer />
+      </Container>
     </>
   )
 }
