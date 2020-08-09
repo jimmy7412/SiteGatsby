@@ -6,10 +6,9 @@ export default function CenterBlog() {
   return(
     <StaticQuery query={
       graphql`query {
-  allMarkdownRemark(limit: 5, sort: {fields: frontmatter___date, order: DESC}) {
+  allMarkdownRemark(filter: {frontmatter: {important: {eq: true}}}, limit: 10, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
-        excerpt
         fields {
           slug
         }

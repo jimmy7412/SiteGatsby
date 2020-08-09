@@ -8,18 +8,22 @@ import CenterBlog from "../components/CenterBlog"
 import { Jumbotron, Container, Row, Col } from "reactstrap"
 import '../components/IndexStyle.css'
 import FrontHeading from "../components/FrontHeading"
+import SideBar from "../components/SideBar"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <FrontHeading />
-    <CenterBlog />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+      <Container>
+          <Row>
+              <Col sm={'9'}>
+                  <CenterBlog />
+              </Col>
+              <Col sm={'3'}>
+                  <SideBar />
+              </Col>
+          </Row>
+      </Container>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>

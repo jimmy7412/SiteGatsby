@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-import { Container, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import React, { Component, useState } from 'react';
+import ButtonDropdown, { Container, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'gatsby';
 import './NavMenu.css';
+import DropdownToggle from "reactstrap"
+import DropdownMenu from "reactstrap"
+import DropdownItem from "reactstrap"
 
-export class NavMenu extends Component {
-    static displayName = NavMenu.name;
+const NavMenu = (props) => {
 
-    render() {
+    const [dropdownOpen, setOpen] = useState(false);
+
+    const toggle = () => setOpen(!dropdownOpen);
+
         return (
             <header>
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
@@ -16,6 +21,18 @@ export class NavMenu extends Component {
                                 <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
                                 </NavItem>
+                                <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
+                                    <DropdownToggle caret>
+                                        Button Dropdown
+                                    </DropdownToggle>
+                                    <DropdownMenu>
+                                        <DropdownItem header>Header</DropdownItem>
+                                        <DropdownItem disabled>Action</DropdownItem>
+                                        <DropdownItem>Another Action</DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem>Another Action</DropdownItem>
+                                    </DropdownMenu>
+                                </ButtonDropdown>
                                 <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/Resume">Resume</NavLink>
                                 </NavItem>
@@ -27,5 +44,6 @@ export class NavMenu extends Component {
                 </Navbar>
             </header>
         )
-    }
 }
+
+export default NavMenu

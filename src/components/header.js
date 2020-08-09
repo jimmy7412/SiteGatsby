@@ -1,32 +1,55 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
-import { Container, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import React, {useState} from "react"
+import { Container, Navbar, NavbarBrand, NavItem, NavLink, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown, Nav } from 'reactstrap';
 
-const Header = ({ siteTitle }) => (
-  <Container>
-  <header>
-    <div>
-      <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
-        <Container>
-          <NavbarBrand tag={Link} to="/">{siteTitle}</NavbarBrand>
-          <ul className="navbar-nav flex-grow">
-            <NavItem>
-              <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} className="text-dark" to="/Resume">Resume</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} className="text-dark" to="/Projects">Projects</NavLink>
-            </NavItem>
-          </ul>
-        </Container>
-      </Navbar>
-    </div>
-  </header>
-</Container>
-)
+const Header = ({ siteTitle }) => {
+  const [dropdownOpen, setOpen] = useState(false);
+
+  const toggle = () => setOpen(!dropdownOpen);
+
+  return (
+    <Container>
+      <header>
+        <div>
+          <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light color="light">
+            <Container>
+              <NavbarBrand tag={Link} to="/">{siteTitle}</NavbarBrand>
+              <Nav className="navbar-nav flex-grow">
+                <NavItem>
+                  <NavLink tag={Link} to="/" nav>Home</NavLink>
+                </NavItem>
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    Blogs
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      Weather
+                    </DropdownItem>
+                    <DropdownItem>
+                      Politics
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>
+                      Local
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <NavItem>
+                  <NavLink tag={Link} to="/Resume">Resume</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} to="/Projects">Projects</NavLink>
+                </NavItem>
+              </Nav>
+            </Container>
+          </Navbar>
+        </div>
+      </header>
+    </Container>
+  );
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
