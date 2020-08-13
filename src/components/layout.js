@@ -5,14 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, { Component } from "react";
+import React from "react";
 import {Container} from 'reactstrap';
-import {NavMenu} from "./NavMenu";
 import {Footer} from "./Footer"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import Header from "./header"
 import "./layout.css"

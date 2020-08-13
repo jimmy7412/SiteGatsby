@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from "gatsby"
-import {Container, Table} from "reactstrap"
+import {Container} from "reactstrap"
 
 export default function SideBar() {
   return(
@@ -33,6 +33,7 @@ export default function SideBar() {
                              <h4>
                                {node.frontmatter.title}{" "}
                              </h4>
+                             <p>{node.frontmatter.date}</p>
                            </Link>
                          </div>
                          </small>))}

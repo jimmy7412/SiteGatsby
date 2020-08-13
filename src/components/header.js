@@ -1,12 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, {useState} from "react"
+import React from "react"
 import { Container, Navbar, NavbarBrand, NavItem, NavLink, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown, Nav } from 'reactstrap';
 
 const Header = ({ siteTitle }) => {
-  const [dropdownOpen, setOpen] = useState(false);
-
-  const toggle = () => setOpen(!dropdownOpen);
 
   return (
     <Container>
