@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from 'gatsby'
-import {Container, Row} from "reactstrap"
+import {Container, Row, Button} from "reactstrap"
 
 export default function AProject() {
   return(
@@ -14,6 +14,8 @@ export default function AProject() {
           title
           end_date(formatString: "MMMM YYYY")
           current
+          live_site
+          repo
         }
         id
         excerpt
@@ -40,6 +42,7 @@ export default function AProject() {
                              </h4>
                              <p>{node.excerpt}</p>
                            </Link>
+                           <Button href={node.frontmatter.repo} color={'success'} target={'_blank'}>Repository</Button>
                          </div>
                        </Row>))}
                    </Container>)

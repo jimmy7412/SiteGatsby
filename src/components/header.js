@@ -22,14 +22,14 @@ const Header = ({ siteTitle }) => {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem>
-                      Weather
+                      <NavLink tag={Link} to="/Weather">Weather</NavLink>
                     </DropdownItem>
                     <DropdownItem>
-                      Politics
+                      <NavLink tag={Link} to="/Politics">Politics</NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
-                      Local
+                      <NavLink tag={Link} to="/Local">Local</NavLink>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
