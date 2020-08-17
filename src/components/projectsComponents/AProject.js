@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from 'gatsby'
-import {Container, Row, Button} from "reactstrap"
+import {Container, Row, Button, Col} from "reactstrap"
 
 export default function AProject() {
   return(
@@ -31,8 +31,9 @@ export default function AProject() {
                  render = {data => (
                    <Container className={'mt-5'}>
                      {data.allMarkdownRemark.edges.map(({ node }) => (
+                       <div key={node.id}>
                        <Row className={'mb-3'}>
-                         <div key={node.id}>
+                           <Col md={'6'}>
                            <Link to={node.fields.slug} className={"text-body"}>
                              <h3>
                                {node.frontmatter.title}{" "}
@@ -40,10 +41,13 @@ export default function AProject() {
                              <h4>
                                {node.frontmatter.start_date} -- {node.frontmatter.end_date}{node.frontmatter.current}
                              </h4>
-                             <p>{node.excerpt}</p>
                            </Link>
-                           <Button href={node.frontmatter.repo} color={'success'} target={'_blank'}>Repository</Button>
-                         </div>
-                       </Row>))}
+                             <Button href={node.frontmatter.repo} color={'success'} target={'_blank'}>Repository</Button>
+                           </Col>
+                           <Col md={'6'}>
+                             <p>{node.excerpt}</p>
+                           </Col>
+                       </Row>
+                       </div>))}
                    </Container>)
                  } />)}

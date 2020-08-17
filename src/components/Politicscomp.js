@@ -6,7 +6,7 @@ export default function LocalComponent() {
   return(
     <StaticQuery query={
       graphql`query {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {type: {eq: "local"}}}) {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {type: {eq: "politics"}}}) {
     edges {
       node {
         frontmatter {
@@ -30,10 +30,12 @@ export default function LocalComponent() {
                          <Col md={'4'}>
                            <div key={node.id}>
                              <Link to={node.fields.slug} className={"text-body"}>
-                               <h4>
+                               <p>
                                  {node.frontmatter.title}{" "}
-                               </h4>
-                                  {node.frontmatter.date}
+                                 <span>
+                                   — {node.frontmatter.date}
+                                 </span>
+                               </p>
                                <p>{node.excerpt}</p>
                              </Link>
                            </div>

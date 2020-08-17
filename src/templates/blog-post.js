@@ -14,6 +14,7 @@ export default function BlogPost({ data }) {
         <span>
         <h1>{post.frontmatter.title}</h1>
         </span>
+        <p>Date Created / Updated: {post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       {/* highlight-end */}

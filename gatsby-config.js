@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `James' New Gatsby Site`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `This is a website to showcase my resume and projects and give out news.`,
+    author: `James Pierce`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-JP.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

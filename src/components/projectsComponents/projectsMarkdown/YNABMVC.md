@@ -7,3 +7,5 @@ current: "Present"
 type: "project"
 repo: "https://github.com/jimmy7412/MVCynab"
 ---
+
+Skills: C#/.NET

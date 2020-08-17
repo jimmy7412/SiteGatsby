@@ -27,10 +27,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Header siteTitle={data.site.siteMetadata.title} />
       <Container>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
             integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossOrigin="anonymous" />
-      <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <Footer />
       </Container>

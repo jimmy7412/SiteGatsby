@@ -12,6 +12,7 @@ export default function TechSkills() {
         frontmatter {
           start_date(fromNow: true)
           title
+          duration
         }
         id
         excerpt
@@ -33,10 +34,9 @@ export default function TechSkills() {
               <p>
                 {node.frontmatter.title}{" "}
                 <span>
-                                   — {node.frontmatter.start_date}
+                                   — {node.frontmatter.duration}
                                  </span>
               </p>
-              <p>{node.excerpt}</p>
             </Link>
           </div>
           </Col>))}
