@@ -42,7 +42,8 @@ export default function AProject() {
                                {node.frontmatter.start_date} -- {node.frontmatter.end_date}{node.frontmatter.current}
                              </h4>
                            </Link>
-                             <Button href={node.frontmatter.repo} color={'success'} target={'_blank'}>Repository</Button>
+                             <Button href={node.frontmatter.repo} color={'success'} target={'_blank'} className={'mr-3'}>Repository</Button>
+                             {node.frontmatter.live_site && <Button href={node.frontmatter.live_site} color={'success'} target={'_blank'}>Live Site</Button>}
                            </Col>
                            <Col md={'6'}>
                              <p>{node.excerpt}</p>

@@ -38,8 +38,7 @@ export default function CenterBlog() {
                          </Link>
                        </div>))}
                    </Container>
-                   <Container className={"justify-content-center"}>
-                     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+                   <Container className={"justify-content-center mt-5"}>
                      <Table striped>
                        <thead>
                        <tr>
@@ -50,15 +49,15 @@ export default function CenterBlog() {
                        <tbody>
                        <tr>
                          <th scope={'row'}>Active</th>
-                         <td>291</td>
+                         <td>285</td>
                        </tr>
                        <tr>
                          <th scope={'row'}>Ghosted / Rejected (Greater than 100 days since last contact.)</th>
-                         <td>35</td>
+                         <td>44</td>
                        </tr>
                        <tr>
                          <th scope={'row'}>Rejected (Explicit Rejection)</th>
-                         <td>72</td>
+                         <td>92</td>
                        </tr>
                        </tbody>
                      </Table>

@@ -4,6 +4,4 @@ date: 2020-08-06
 important: true
 ---
 
-<Container>
-<h2>Ain't good</h2>
-</Container>
+Not good
