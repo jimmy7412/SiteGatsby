@@ -7,3 +7,6 @@ type: "project"
 live_site: "https://jamespiercereact.netlify.app"
 repo: "https://github.com/jimmy7412/personalreact"
 ---
+
+Next generation website to show some of my accomplishments and updates.
+Skills and Tools used: HTML, JSX, CSS, Javascript, React, Bootstrap, Reactstrap

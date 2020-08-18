@@ -8,4 +8,5 @@ type: "project"
 repo: "https://github.com/jimmy7412/MVCynab"
 ---
 
-Skills: C#/.NET
+Pulls in budget data and shows it in an easy to read format.
+Skills and Tools used: C#, .NET, ASP.NET, Blazor Pages, Linq. Earlier versions used: Python, NUMPY, PANDAS

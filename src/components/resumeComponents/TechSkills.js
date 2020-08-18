@@ -5,8 +5,8 @@ import {Container, Row, Col} from "reactstrap"
 export default function TechSkills() {
   return(
     <StaticQuery query={
-  graphql`query {
-  allMarkdownRemark(sort: {fields: frontmatter___start_date, order: DESC}, filter: {frontmatter: {type: {eq: "skill"}}}) {
+  graphql`{
+  allMarkdownRemark(sort: {fields: frontmatter___skill_strength, order: DESC}, filter: {frontmatter: {type: {eq: "skill"}}}) {
     edges {
       node {
         frontmatter {
@@ -22,13 +22,14 @@ export default function TechSkills() {
       }
     }
   }
-}`
+}
+`
 }
                  render = {data => (
     <Container>
       <Row>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Col md={'4'}>
+          <Col md={'4'} className={'text-center'}>
           <div key={node.id}>
             <Link to={node.fields.slug} className={"text-body"}>
               <p>

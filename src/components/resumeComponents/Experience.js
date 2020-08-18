@@ -14,6 +14,7 @@ export default function Experience() {
           title
           end_date(formatString: "MMMM YYYY")
           current
+          company
         }
         id
         excerpt
@@ -34,10 +35,10 @@ export default function Experience() {
                          <div key={node.id}>
                            <Link to={node.fields.slug} className={"text-body"}>
                              <h3>
-                               {node.frontmatter.title}{" "}
+                               {node.frontmatter.title}{" "} - {node.frontmatter.company}
                              </h3>
                              <h4>
-                               {node.frontmatter.start_date} -- {node.frontmatter.end_date}{node.frontmatter.current}
+                               {node.frontmatter.start_date} -- {node.frontmatter.end_date ? node.frontmatter.end_date : node.frontmatter.current}
                              </h4>
                              <p>{node.excerpt}</p>
                            </Link>

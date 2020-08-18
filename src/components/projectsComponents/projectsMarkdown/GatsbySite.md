@@ -8,3 +8,5 @@ type: "project"
 live_site: "https://jamespiercereact.netlify.app"
 repo: "https://github.com/jimmy7412/personalreact"
 ---
+A website that will display static stuff including personal resume and projects.
+Skills and Tools used: HTML, JSX, CSS, Javascript, React, Bootstrap, Reactstrap, GatsbyJS

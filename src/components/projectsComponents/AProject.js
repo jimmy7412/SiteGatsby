@@ -39,7 +39,7 @@ export default function AProject() {
                                {node.frontmatter.title}{" "}
                              </h3>
                              <h4>
-                               {node.frontmatter.start_date} -- {node.frontmatter.end_date}{node.frontmatter.current}
+                               {node.frontmatter.start_date} -- {node.frontmatter.end_date ? node.frontmatter.end_date : "Present"}
                              </h4>
                            </Link>
                              <Button href={node.frontmatter.repo} color={'success'} target={'_blank'} className={'mr-3'}>Repository</Button>

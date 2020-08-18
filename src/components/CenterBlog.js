@@ -5,7 +5,7 @@ import {Container, Table} from "reactstrap"
 export default function CenterBlog() {
   return(
     <StaticQuery query={
-      graphql`query {
+      graphql`{
   allMarkdownRemark(filter: {frontmatter: {important: {eq: true}}}, limit: 10, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
@@ -17,6 +17,7 @@ export default function CenterBlog() {
           title
         }
         id
+        excerpt
       }
     }
   }
@@ -38,7 +39,7 @@ export default function CenterBlog() {
                          </Link>
                        </div>))}
                    </Container>
-                   <Container className={"justify-content-center mt-5"}>
+{/*                   <Container className={"justify-content-center mt-5"}>
                      <Table striped>
                        <thead>
                        <tr>
@@ -61,7 +62,7 @@ export default function CenterBlog() {
                        </tr>
                        </tbody>
                      </Table>
-                   </Container>
+                   </Container>*/}
                    </div>
                  )}/>
   )
