@@ -4,6 +4,4 @@ date: 2020-08-06
 important: true
 ---
 
-Not good
-
-There is no excerpt here
+Still isn't good.
