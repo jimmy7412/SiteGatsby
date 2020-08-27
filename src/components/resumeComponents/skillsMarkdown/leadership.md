@@ -7,4 +7,5 @@ duration: "7 Years"
 skill_strength: 4
 ---
 
-Lead small teams through many different environments, and situations to successfully accomplish the mission.
+Lead small teams through many environments, and 
+situations to successfully accomplish missions and get results.

@@ -7,4 +7,5 @@ duration: "1 Years"
 skill_strength: 3
 ---
 
-I've used Javascript primarily in a web development environment, with some scripting on the side.
+I've used vanilla Javascript primarily in a web development environment, 
+with some scripting on the side.

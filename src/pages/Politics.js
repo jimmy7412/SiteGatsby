@@ -9,6 +9,7 @@ const Politics = () => (
   <Layout>
     <SEO title={'Politics'} />
     <Container>
+      <h1>Politics</h1>
       <Politicscomp />
     </Container>
   </Layout>
