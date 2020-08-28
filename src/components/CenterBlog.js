@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery, Link } from "gatsby"
-import {Container, Table} from "reactstrap"
+import {Container} from "reactstrap"
 
 export default function CenterBlog() {
   return(
