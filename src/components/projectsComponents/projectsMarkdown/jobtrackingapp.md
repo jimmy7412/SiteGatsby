@@ -1,12 +1,14 @@
 ---
-title: "Job Tracking App"
-date: 2020-08-29
+title: "Job Tracking App (Suspended)"
+date: 2020-09-07
 start_date: 2020-07-01
-end_date: 
+end_date: 2020-09-01
 type: "project"
 live_site: 
-repo: "https://github.com/jimmy7412/personalreact"
+repo: "https://github.com/jimmy7412/JobTrackingApp"
 ---
+
+Suspended for now to rethink how I want to go about it.
 
 An ASP.NET MVC React app to keep track of all my job application rejections.
 Skills and Tools used: C#/.NET, ASP.NET, MVC, React, Linq, EFCore
