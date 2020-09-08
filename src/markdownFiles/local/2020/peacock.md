@@ -1,9 +1,12 @@
 ---
 title: "There's a Peacock running around"
-date: 2020-09-03
+date: 2020-09-08
 type: "local"
 important: true
 ---
+
+Update September 8, 2020: He was in my backyard, I don't know how he got in there
+because it is completely fenced off.
 
 Update September 3, 2020: He was in my yard earlier, and seems to be doing well.
 

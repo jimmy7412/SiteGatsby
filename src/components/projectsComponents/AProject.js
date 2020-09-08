@@ -32,7 +32,7 @@ export default function AProject() {
                    <Container className={'mt-5'}>
                      {data.allMarkdownRemark.edges.map(({ node }) => (
                        <div key={node.id}>
-                       <Row className={'mb-3'}>
+                       <Row className={'mb-3 pb-3 border-bottom'}>
                            <Col md={'6'}>
                            <Link to={node.fields.slug} className={"text-body"}>
                              <h3>
@@ -42,7 +42,7 @@ export default function AProject() {
                                {node.frontmatter.start_date} -- {node.frontmatter.end_date ? node.frontmatter.end_date : "Present"}
                              </h4>
                            </Link>
-                             <Button href={node.frontmatter.repo} color={'success'} target={'_blank'} className={'mr-3'}>Repository</Button>
+                             {node.frontmatter.repo && <Button href={node.frontmatter.repo} color={'success'} target={'_blank'} className={'mr-3'}>Repository</Button>}
                              {node.frontmatter.live_site && <Button href={node.frontmatter.live_site} color={'success'} target={'_blank'}>Live Site</Button>}
                            </Col>
                            <Col md={'6'}>
