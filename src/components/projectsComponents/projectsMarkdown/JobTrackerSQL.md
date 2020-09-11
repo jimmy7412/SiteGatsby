@@ -1,6 +1,6 @@
 ---
 title: "Job Tracker SQL"
-date: 2020-09-08
+date: 2020-09-11
 start_date: 2020-07-01
 end_date:
 current: "Present"
@@ -9,6 +9,7 @@ live_site:
 repo: 
 ---
 
-A bunch of SQL scripts to keep track of jobs I have applied to.
+A bunch of SQL scripts to keep track of jobs I have applied to. This will be retired
+when the other app gets spun up.
 
 Skills and Tools used: MySQL, Datagrip.
