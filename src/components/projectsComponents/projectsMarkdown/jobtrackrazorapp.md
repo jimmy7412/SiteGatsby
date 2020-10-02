@@ -1,6 +1,6 @@
 ---
 title: "Job Tracking App Razor Pages"
-date: 2020-09-07
+date: 2020-10-02
 start_date: 2020-09-01
 end_date:
 type: "project"

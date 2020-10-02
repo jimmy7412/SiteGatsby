@@ -1,9 +1,11 @@
 ---
 title: "There's a Peacock running around"
-date: 2020-09-08
+date: 2020-10-02
 type: "local"
 important: true
 ---
+
+Update October 2, 2020: He's still around and can leap over most fences.
 
 Update September 8, 2020: He was in my backyard, I don't know how he got in there
 because it is completely fenced off.

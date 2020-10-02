@@ -1,10 +1,10 @@
 ---
 title: "Job Numbers 2020"
-date: 2020-09-12
+date: 2020-10-02
 important: true
 ---
 
-Still isn't good.
+Still, not good.
 
 
 <Table striped>
