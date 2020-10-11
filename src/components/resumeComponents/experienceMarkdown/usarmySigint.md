@@ -1,8 +1,8 @@
 ---
 title: "35N Signals Intelligence Analyst"
 company: "United States Army"
-date: 2020-08-18
-start_date: 2008-03-20
+date: 2020-10-11
+start_date: 2008-07-08
 end_date: 2020-01-07
 current: "Present"
 type: "experience"
