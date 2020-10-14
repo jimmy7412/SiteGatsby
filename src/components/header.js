@@ -25,6 +25,9 @@ const Header = ({ siteTitle }) => {
                       <NavLink tag={Link} to="/Local">Local</NavLink>
                     </DropdownItem>
                     <DropdownItem>
+                      <NavLink tag={Link} to="/Coding">Coding</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
                       <NavLink tag={Link} to="/Politics">Politics</NavLink>
                     </DropdownItem>
                     <DropdownItem divider />
