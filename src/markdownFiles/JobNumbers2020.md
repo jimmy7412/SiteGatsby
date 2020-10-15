@@ -1,6 +1,6 @@
 ---
 title: "Job Numbers 2020"
-date: 2020-10-12
+date: 2020-10-15
 important: true
 ---
 
@@ -17,15 +17,15 @@ Still, not good.
 <tbody>
 <tr>
 <th scope={'row'}>Active</th>
-<td>144</td>
+<td>128</td>
 </tr>
 <tr>
 <th scope={'row'}>Ghosted / Rejected (Greater than 100 days since last contact.)</th>
-<td>111</td>
+<td>124</td>
 </tr>
 <tr>
 <th scope={'row'}>Rejected (Explicit Rejection)</th>
-<td>211</td>
+<td>218</td>
 </tr>
 </tbody>
 </Table>

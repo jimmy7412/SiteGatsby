@@ -1,9 +1,11 @@
 ---
 title: "There's a Peacock running around"
-date: 2020-10-02
+date: 2020-10-15
 type: "local"
 important: true
 ---
+
+Update October 15, 2020: He's been taking shelter on my porch, during the winds.
 
 Update October 2, 2020: He's still around and can leap over most fences.
 
