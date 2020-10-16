@@ -1,6 +1,6 @@
 ---
 title: "Job Numbers 2020"
-date: 2020-10-15
+date: 2020-10-16
 important: true
 ---
 
@@ -25,7 +25,7 @@ Still, not good.
 </tr>
 <tr>
 <th scope={'row'}>Rejected (Explicit Rejection)</th>
-<td>218</td>
+<td>220</td>
 </tr>
 </tbody>
 </Table>

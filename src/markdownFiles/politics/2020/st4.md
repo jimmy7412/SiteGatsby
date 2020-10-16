@@ -1,7 +1,7 @@
 ---
 title: Sound Transit 4
 date: 2020-08-27
-type: "politics"
+type:
 ---
 
 ST4 needs a new Link Light Rail line that hits the other side of South King County.
