@@ -1,7 +1,7 @@
 ---
 title: "Job Numbers 2020"
-date: 2020-10-24
-important: true
+date: 2020-10-01
+important:
 ---
 
 Still, not good.
