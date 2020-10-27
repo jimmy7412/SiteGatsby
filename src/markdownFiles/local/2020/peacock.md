@@ -1,9 +1,12 @@
 ---
 title: "There's a Peacock running around"
-date: 2020-10-15
+date: 2020-10-27
 type: "local"
 important: true
 ---
+
+Update October 27, 2020: Hopefully he's found somewhere warm to hang out during
+the cold weather, I don't think peacocks are cold weather birds.
 
 Update October 15, 2020: He's been taking shelter on my porch, during the winds.
 
