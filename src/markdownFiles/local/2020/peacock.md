@@ -1,11 +1,11 @@
 ---
 title: "There's a Peacock running around"
-date: 2020-11-05
+date: 2020-11-06
 type: "local"
 important: true
 ---
 
-Update November 5, 2020: I haven't seen him in awhile, hopefully he's not in
+Update November 5, 2020: I haven't seen him in a while, hopefully he's not in
  the rain.
 
 Update October 27, 2020: Hopefully he's found somewhere warm to hang out during
