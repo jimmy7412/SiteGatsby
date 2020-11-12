@@ -1,9 +1,9 @@
 ---
 title: "Job Tracker SQL"
-date: 2020-09-11
+date: 2020-11-12
 start_date: 2020-07-01
-end_date:
-current: "Present"
+end_date: 2020-11-12
+current: 
 type: "project"
 live_site: 
 repo: 
