@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import { Summary } from "../components/resumeComponents/ResumeSummary"
 import TechSkills from "../components/resumeComponents/TechSkills"
 import Education from "../components/resumeComponents/Education"
@@ -13,9 +13,15 @@ const Resume = () => (
     <SEO title={'Resume'} />
     <Container>
       <Summary />
-      <TechSkills />
-      <Education />
-      <Experience />
+      <Row>
+        <Col md={'8'}>
+          <Education />
+          <Experience />
+        </Col>
+        <Col md={'4'}>
+          <TechSkills />
+        </Col>
+      </Row>
     </Container>
   </Layout>
 )

@@ -29,7 +29,7 @@ export default function TechSkills() {
     <Container>
       <Row>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Col md={'4'} className={'text-center'}>
+          <Col md={'12'} className={'text-center'}>
           <div key={node.id}>
             <Link to={node.fields.slug} className={"text-body"}>
               <p>
