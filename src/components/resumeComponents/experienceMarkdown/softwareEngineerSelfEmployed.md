@@ -1,10 +1,10 @@
 ---
 title: "Software Engineer"
 company: "Self Employed"
-date: 2020-08-13
+date: 2021-02-22
 start_date: 2019-06-14
-end_date: 
-current: "Present"
+end_date: 2021-01-11
+current:
 type: "experience"
 ---
 
