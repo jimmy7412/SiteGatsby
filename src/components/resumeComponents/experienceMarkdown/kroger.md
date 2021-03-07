@@ -3,8 +3,8 @@ title: "E Commerce Clerk"
 company: "Quality Food Center"
 date: 2020-08-17
 start_date: 2020-03-20
-end_date: 
-current: "Present"
+end_date: 2020-12-14
+current:
 type: "experience"
 ---
 
