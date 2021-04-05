@@ -24,7 +24,7 @@ const FrontHeading = () => (
           <Col><h4>Physicist</h4></Col>
         </Row>
         <Row>
-          <Col><h2>Looking for a Career!</h2></Col>
+          <Col><h2>Data Scientist</h2></Col>
         </Row>
 
       </Jumbotron>

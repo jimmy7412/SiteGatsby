@@ -1,8 +1,10 @@
 .jumbotron-fluid {
     background-image: url("../images/goldie_snow.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
     color: white;
     text-align: center;
+    object-fit: cover;
 }

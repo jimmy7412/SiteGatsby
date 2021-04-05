@@ -1,8 +1,8 @@
 ---
 title: "Job Tracking App Razor Pages"
-date: 2020-11-01
+date: 2021-04-05
 start_date: 2020-09-01
-end_date:
+end_date: 2020-12-01
 type: "project"
 live_site: 
 repo: "https://github.com/jimmy7412/JobTrackerRazorApp"
