@@ -8,3 +8,6 @@ current: "Present"
 type: "experience"
 ---
 
+Finding, cleaning and analyzing data.
+Analyzing data using machine learning, natural language processing,
+and clustering. Using both supervised and unsupervised learning.
