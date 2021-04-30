@@ -2,9 +2,9 @@
 title: React
 start_date: 2017-01-01
 type: "skill"
-date: 2018-08-12
-duration: "2 Months"
-skill_strength: 3
+date: 2021-04-30
+duration: "8 Months"
+skill_strength: 6
 ---
 
 Tools: React, Gatsby
