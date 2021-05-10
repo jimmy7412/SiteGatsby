@@ -15,8 +15,8 @@ const Resume = () => (
       <Summary />
       <Row>
         <Col md={'8'}>
-          <Education />
           <Experience />
+          <Education />
         </Col>
         <Col md={'4'}>
           <TechSkills />
