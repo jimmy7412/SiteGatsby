@@ -2,9 +2,9 @@
 title: C#/.NET
 start_date: 2019-02-01
 type: "skill"
-date: 2020-08-12
-duration: "6 Months"
-skill_strength: 4
+date: 2021-05-17
+duration: "1 Year"
+skill_strength: 8
 ---
 
 ASP.NET, EFCore, Linq, Razor Pages
